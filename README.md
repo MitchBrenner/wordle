@@ -2,8 +2,6 @@
 
 I made a basic Wordle clone using **Next.js** and styled it with modern UI tools. The game replicates the classic Wordle experience with smooth animations and responsive design.
 
----
-
 ## 🧑‍🎨 Styling & Libraries Used
 
 - 🎨 **Shadcn** – for beautiful UI components
