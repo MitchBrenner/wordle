@@ -11,6 +11,6 @@ I made a basic Wordle clone using **Next.js** and styled it with modern UI tools
 - 🔥 **React Hot Toast** – for clean toast notifications
 - 🎬 **Framer Motion** – for animations and transitions
 
----
+![Web image](/public/web.png)
 
 Feel free to clone it, play it, or build your own version! 🎯
