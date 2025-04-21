@@ -1,4 +1,6 @@
-export type Alphabet =
+type LetterStatus = 'not guessed' | 'correct' | 'exists' | 'invalid';
+
+type Alphabet =
   | 'A'
   | 'B'
   | 'C'
@@ -25,7 +27,5 @@ export type Alphabet =
   | 'X'
   | 'Y'
   | 'Z';
-
-export type LetterStatus = 'not guessed' | 'correct' | 'present' | 'absent';
 
 export type WordBank = Record<Alphabet, LetterStatus>;

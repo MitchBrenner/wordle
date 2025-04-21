@@ -48,7 +48,7 @@ export default function Home() {
   // useEffect(() => {}, [wordBank]);
 
   return (
-    <div className="flex flex-col space-y-20">
+    <div className="flex flex-col space-y-16">
       <div className="mt-10 flex w-screen flex-col items-center justify-center space-y-2">
         <Row
           word={test_word}
@@ -100,6 +100,11 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col items-center justify-center space-y-5">
+        <div className="">
+          <p className="text-center text-xs text-gray-300">
+            You may need to click on the first box of a new column
+          </p>
+        </div>
         <Keyboard wordBank={wordBank} />
         <Button
           className="w-auto"
