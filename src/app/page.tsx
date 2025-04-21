@@ -6,12 +6,13 @@ import Keyboard from '@/components/Keyboard';
 import Row from '@/components/Row';
 import { Button } from '@/components/ui/button';
 import { randomWord } from '@/lib/utils';
+import { WordBank } from '@/types';
 
 export default function Home() {
   // const test_word = randomWord().toUpperCase();
   const [test_word, setTestWord] = useState('XXXXX');
   const [gameOver, setGameOver] = useState(false);
-  const [wordBank, setWordBank] = useState({
+  const [wordBank, setWordBank] = useState<WordBank>({
     A: 'not guessed',
     B: 'not guessed',
     C: 'not guessed',

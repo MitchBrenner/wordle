@@ -1,6 +1,8 @@
+import { WordBank } from '@/types';
+
 import Key from './Key';
 
-function Keyboard({ wordBank }: { wordBank: object }) {
+function Keyboard({ wordBank }: { wordBank: WordBank }) {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="flex flex-row space-x-2">
